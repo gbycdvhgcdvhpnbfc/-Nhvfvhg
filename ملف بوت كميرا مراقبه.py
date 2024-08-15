@@ -19,7 +19,7 @@ resp = requests.get(url, headers=headers)
 data = resp.json()
 countries = data['countries']
 
-bot = telebot.TeleBot('') #هنا خلي توكن بين ال""
+bot = telebot.TeleBot('7264213709:AAEHqc9rpM4wqMjc8I5yJPuc5_60u7UlwVg') #هنا خلي توكن بين ال""
 
 @bot.message_handler(commands=['start'])
 def start(message):
